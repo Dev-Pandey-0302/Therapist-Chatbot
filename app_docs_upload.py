@@ -50,7 +50,7 @@ if uploaded_file is not None:
     # To read file as string:
     stringio = StringIO(uploaded_file.getvalue().decode("utf-8"))
     doc_data = stringio.read()
-    doc_data = "This is my medical record - "+doc_data
+    doc_data = "This is my medical record - "+doc_data+" Please answer the following question based on the earlier medical record- "
     
 
 
@@ -68,7 +68,7 @@ if prompt:
         #pass through the prompt
         messages=[{
             'role': 'user',
-            'content': doc_data+" Please answer the following question based on the earlier medical record- "+prompt
+            'content': doc_data+prompt
         }],
         #Add streaming
         stream=True
