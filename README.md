@@ -1,5 +1,6 @@
 # Therapy-Bot
 Therapy-Bot is a locally running, completely data-secure chatbot designed to provide support for mental health-related inquiries. It uses the [llama.cpp](https://github.com/ggerganov/llama.cpp) framework. The chatbot can provide helpful responses, read psychiatric reports of patients, answer queries based on said reports and output a voice generated message.
+![Streamlit Interface](https://github.com/Dev-Pandey-0302/CHATBOT_PROJ_NEW/blob/master/example.png)
 ## Table of Contents
 * Features
 * Setup
