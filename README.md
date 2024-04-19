@@ -11,6 +11,7 @@ Therapy-Bot is a locally running, completely data-secure chatbot designed to pro
 * Data Secure: All processing is done locally on your machine, ensuring complete data privacy and security.
 * Mental Health Model: Utilizes a fine-tuned Chat-LLaMA model for mental health support.
 * Medical Report Reading: Can read psychiatric reports of patients if needed and answer queries based on them.
+* Output a TTS message with output.
 ## Setup
 1. Git clone https://github.com/ggerganov/llama.cpp 
 2. Run the make commands: 
